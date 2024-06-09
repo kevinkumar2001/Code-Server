@@ -5,11 +5,11 @@ FROM lscr.io/linuxserver/code-server:latest
 ENV PUID=1000
 ENV PGID=1000
 ENV TZ=Etc/UTC
-ENV PASSWORD=9090@Rolex # optional
-ENV HASHED_PASSWORD= # optional
-ENV SUDO_PASSWORD=9090@Rolex # optional
-ENV SUDO_PASSWORD_HASH= # optional
-ENV DEFAULT_WORKSPACE=/config/workspace # optional
+ENV PASSWORD=9090@Rolex 
+ENV HASHED_PASSWORD= 
+ENV SUDO_PASSWORD=9090@Rolex
+ENV SUDO_PASSWORD_HASH=
+ENV DEFAULT_WORKSPACE=/config/workspace
 
 # Expose port
 EXPOSE 8443
